@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": ["/home/kacper/semestr6/kodowanie/l3/testy/pan-tadeusz-czyli-ostatni-zajazd-na-litwie.txt", "/home/kacper/semestr6/kodowanie/l3/enc", "--gamma"],
+      "stopAtEntry": false,
+      "cwd": "/home/kacper/semestr6/kodowanie/l3",
+      "environment": [],
+      "program": "/home/kacper/semestr6/kodowanie/l3/lzwEncode",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
